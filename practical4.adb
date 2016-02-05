@@ -67,6 +67,6 @@ begin
   DoWork;
 
   for n in numbers'Range loop
-    Put_Line(integer'image(numbers(n)) & " ");
+    Put_Line(integer'image(numbers(n)));
   end loop;
 end Practical4;
